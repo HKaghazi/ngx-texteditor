@@ -1,0 +1,17 @@
+{
+    "name": "ng-texteditor",
+    "version": "1.0.0",
+    "description": "simple native text editor for angular +6",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "texteditor",
+        "angular",
+        "textedit",
+        "wysiwyg"
+    ],
+    "author": "Hafez Kaghazi <smart.hafez@live.com>",
+    "license": "MIT"
+}
