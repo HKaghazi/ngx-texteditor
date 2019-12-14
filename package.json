@@ -1,10 +1,14 @@
 {
     "name": "ng-texteditor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "simple native text editor for angular +6",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HKaghazi/ngx-texteditor.git"
     },
     "keywords": [
         "texteditor",
