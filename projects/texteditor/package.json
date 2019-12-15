@@ -1,0 +1,13 @@
+{
+    "name": "ng-texteditor",
+    "version": "1.0.2",
+    "peerDependencies": {
+        "@angular/common": ">=6.0.0",
+        "@angular/core": ">=6.0.0",
+        "font-awesome": ">=4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HKaghazi/ngx-texteditor.git"
+    }
+}
