@@ -15,7 +15,7 @@ please submit issues in order to fix any bugs and improvment of package<br/>
 -- [demo]() on guthub pages <br/>
 
 
-## Requirements
+## Prerequisites
     angular/core >= 6.0.0
     angular/common >= 6.0.0
     font-awesome >= 4.0.0
@@ -40,6 +40,40 @@ please submit issues in order to fix any bugs and improvment of package<br/>
     })
 
 
-2-Add `<ng-texteditor></ng-texteditor>` anywhere you like 
+2-Code `<ng-texteditor></ng-texteditor>` anywhere you like 
 
-... documentation will updated soon
+3-Insert `Options`
+
+    <ng-texteditor [id]="'id'" [placeholder]="'Place Holder'" tabIndex="TabIndexNumber | null"  [(ngModel)]="fruit" [config]="config"></ng-texteditor> 
+
+## Options
+
+### Inputs
+* editable `<Boolean>` : `true`
+* spellcheck `<Boolean>` : `true`
+* height `<String>`: `'auto'`
+* minHeight `<String>`: `'0'`
+* maxHeight `<String>`: `'auto'`
+* width `<String>` : `'auto'`
+* minWidth `<String>` : `'0'`
+* translate `<String>` : `'yes'`
+* enableToolbar `<Boolean>` : `true`
+* showToolbar `<Boolean>` : `true`
+* placeholder `<String>` : `'Enter text here...'`
+* defaultParagraphSeparator `<String>` : `''`
+* defaultFontName `<String>` : `''`
+* defaultFontSize `<String>` : `''`
+* fonts `<Array>` : `[
+{class: 'arial', name: 'Arial'},
+{class: 'times-new-roman', name: 'Times New Roman'},
+{class: 'calibri', name: 'Calibri'},
+{class: 'comic-sans-ms', name: 'Comic Sans MS'}
+]`
+* uploadUrl `<String>` : `'v1/image'`
+* sanitize `<Boolean>` : `true`
+* toolbarPosition `<String>` : `'top'`
+* outline `<Boolean>` : `true`
+
+### Outputs
+* onChange() : (value: string) => void
+* onTouched() : () => void
