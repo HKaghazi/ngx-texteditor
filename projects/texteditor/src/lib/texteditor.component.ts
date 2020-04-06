@@ -62,7 +62,7 @@ export class TexteditorComponent implements OnInit, AfterViewInit, OnDestroy {
 
   @ViewChild('editor', { static: true }) textArea: ElementRef;
   @ViewChild('editorWrapper', { static: true }) editorWrapper: ElementRef;
-  @ViewChild('editorToolbar', { static: false }) editorToolbar: TextEditorToolbarComponent;
+  @ViewChild('editorToolbar') editorToolbar: TextEditorToolbarComponent;
 
   @Output() viewMode = new EventEmitter<boolean>();
 
